@@ -1,4 +1,5 @@
 import React from "react";
+import NameGenerator from "./components/NameGenerator";
 
 const style = {
   title: {
@@ -8,13 +9,6 @@ const style = {
     backgroundColor: "green",
     color: "white",
     fontSize: 32
-  },
-  generatedName: {
-    marginBottom: 20,
-    fontSize: 48
-  },
-  button: {
-    marginBottom: 30
   },
   previousNameHeader: {
     color: "grey",
@@ -29,8 +23,7 @@ function App() {
   return (
     <>
       <p style={style.title}>Animal Crossing Town Name Generator</p>
-      <p style={style.generatedName}>Town Name</p>
-      <button style={style.button}>Get a new name!</button>
+      <NameGenerator />
       <p style={style.previousNameHeader}> Previous Names </p>
       <div style={style.previousNames}>
         <p>name1</p>
