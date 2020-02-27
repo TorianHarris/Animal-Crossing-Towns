@@ -6,8 +6,9 @@ const names = [
   { name: "Fourside" },
   { name: "Delfino" },
   { name: "Belcoast" },
-  { name: 'Koholint'},
-  { name: 'Goldmine'},
+  { name: "Koholint" },
+  { name: "Goldmine" },
+  { name: "Coney" }
 ];
 
 export default names;
